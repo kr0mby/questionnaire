@@ -1,0 +1,99 @@
+.Question {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 30;
+}
+
+.Question p {
+  color: rgb(95, 85, 85);
+  margin-top: 25px;
+  margin-bottom: 25x;
+  font-size: 25px;
+}
+
+.Question input[type=radio] {
+  background-color: aquamarine;
+}
+.Question button {
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: rgb(12, 163, 105);
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+
+.Question button:hover {
+  background-color: mediumspringgreen;
+
+}
+
+.radioContainer {
+  cursor: pointer;
+  display: inline-block;
+}
+.radioContainer input[type=radio] {
+  display: none;
+}
+
+.radioContainer .circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 8px;
+  margin-left: 10px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+
+.radioContainer .Red {
+  background-color: rgb(223, 69, 69);
+  border: 4px solid rgb(223, 69, 69);
+}
+.radioContainer .Orange {
+  background-color: rgb(185, 107, 42);
+  border: 4px solid rgb(185, 107, 42);
+
+}
+.radioContainer .Yellow {
+  background-color: rgb(201, 171, 39);
+  border: 4px solid rgb(201, 171, 39);
+}
+.radioContainer .Green {
+  background-color: rgb(71, 187, 61);
+  border: 4px solid rgb(71, 187, 61);
+}
+.radioContainer .Blue {
+  background-color: rgb(61, 126, 187);
+  border: 4px solid rgb(61, 126, 187);
+}
+
+.radioContainer .Red:hover, .radioContainer input:checked + .Red {
+  background-color: rgb(143, 53, 53);
+}
+.radioContainer .Orange:hover, .radioContainer input:checked + .Orange  {
+  background-color: rgb(143, 82, 32);
+}
+.radioContainer .Yellow:hover, .radioContainer input:checked + .Yellow  {
+  background-color: rgb(146, 125, 29);
+}
+.radioContainer .Green:hover, .radioContainer input:checked + .Green {
+  background-color: rgb(55, 145, 47);
+}
+.radioContainer .Blue:hover, .radioContainer input:checked + .Blue  {
+  background-color: rgb(35, 74, 110);
+}
+
