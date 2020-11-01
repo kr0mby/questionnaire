@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles from './question.module.css'
+import styles from './question.module.scss'
 
 class Question extends Component {
 
